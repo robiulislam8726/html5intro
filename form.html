@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+            
+        }
+        fieldset{
+            margin-bottom: 10px;
+        }
+        button{
+            border: 2px solid red;
+            width: 50%;
+        }
+        .RR
+        {
+            border: 2px solid red;
+            width: 30%;
+            padding: 5px;
+        }
+        nav> ul> li{
+            display: inline;
+        }
+        header{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header style="border: 2px solid red; margin-bottom: 5px ">
+
+        <nav>
+            <ul>
+            <li>Home</li>
+            <li>Company </li>
+            <li>About</li>
+            <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+         
+        <section class="RR">
+            <h1>Please <del>fill</del> up <strike>the</strike> form </h1>
+            <form>
+                <label for="name"> Your name:
+                    <input id="name" type="text" placeholder="Your name">
+                </label>
+                <label for="email"> Your email:
+                    <input id="email" type="email" placeholder="Your email">
+               
+                </label>
+                <label for="Phone"> Your Phone:
+                    <input id="Phone" type="email" placeholder="Your Phone">
+                </label>
+                <fieldset>
+                    <legend>Pick your Dress</legend>
+                    <label for="Chitoy">
+                        <input type="radio" name="Robi" id="Chitoy"> Chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="Robi" id="vapa"> vapa
+                    </label>
+                    <label for="kola">
+                        <input type="radio" name="Robi" id="kola"> kola
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick your shose</legend>
+                    <label for="shose">
+                        <input type="checkbox" name="kala" id="juta">juta
+                    </label>
+                    <label for="juta">
+                        <input type="checkbox" name="kala" id="sada"> sada
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special instruction</legend>
+                    <label for="comment">
+                        <textarea name="" id="" cols="19" rows="8"></textarea>
+                    </label>
+                </fieldset>
+                    <input type="reset" value="reset">
+                    <input type="submit" value="submit">
+                
+            </form>
+            
+        </section>
+   
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
